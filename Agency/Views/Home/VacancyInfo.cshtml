@@ -1,0 +1,9 @@
+﻿<div class="vacancy">
+    <p class="vacancy_nameInfo">@ViewBag.vacancy.Name</p>
+    <p class="vacancy_salaryInfo">@ViewBag.vacancy.Salary грн</p>
+</div>
+<div>
+    @ViewBag.vacancy.Discription
+    <button>Відгукнутись</button>
+    <a href="/Home/DeleteVacancy/@ViewBag.vacancy.ID" class="delete_button">Видалити вакансію</a>
+</div>

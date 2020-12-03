@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    @foreach (var b in ViewBag.Vacancies)
+    {
+        <div class="vacancy">
+            <a class="vacancy_name" href="/Home/VacancyInfo/@b.ID">@b.Name</a>
+            <p class="vacancy_salary">@b.Salary грн</p>
+        </div>
+    }
