@@ -64,7 +64,7 @@ namespace Agency.Controllers
                 myConnection.Close();
             }
             return Redirect("/Home");
-        }
+        } 
         public IActionResult VacancyInfo(int ID)
         {
             var con = "data source=DESKTOP-V0KQMB2; Initial Catalog = agency; Integrated Security = True;";
