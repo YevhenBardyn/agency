@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Agency\\Agency\\Agency.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\agency\\Agency\\Agency.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Agency\\Agency\\Agency.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\agency\\Agency\\Agency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Agency\\Agency\\Agency.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\agency\\Agency\\Agency.csproj",
         "projectName": "Agency",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Agency\\Agency\\Agency.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\agency\\Agency\\Agency.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Agency\\Agency\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\agency\\Agency\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.Data.SqlClient": {
               "target": "Package",
@@ -61,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
